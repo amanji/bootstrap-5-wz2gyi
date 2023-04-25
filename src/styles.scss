@@ -1,0 +1,18 @@
+// $primary: #276fc2;
+// $secondary: #e8d21d;
+// $border-radius: 1px;
+
+@import '../node_modules/bootstrap/scss/bootstrap';
+
+#autocomplete {
+  position: relative;
+  display: inline-block;
+}
+
+#autocompleteItems {
+  z-index: 99;
+  position: absolute;
+  top: 4.5em;
+  left: 0;
+  right: 0;
+}

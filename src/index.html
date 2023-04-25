@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="main.js"></script>
+  </head>
+
+  <body class="p-4">
+    <form>
+      <div id="autocomplete" class="mb-3 col-12">
+        <label for="autocompleteInput" class="form-label"
+          >Start typing a Company Name</label
+        >
+        <input
+          type="text"
+          class="form-control"
+          id="autocompleteInput"
+          aria-describedby="autocompleteHelp"
+          placeholder="Type to search..."
+          autocomplete="off"
+        />
+        <div id="autocompleteHelp" class="form-text">
+          You can alse enter a BC Registration Number or CRA Business Number
+        </div>
+        <div id="autocompleteItems">
+          <ul class="list-group">
+            <!-- <li class="list-group-item">An item</li>
+            <li class="list-group-item">A second item</li>
+            <li class="list-group-item">A third item</li>
+            <li class="list-group-item">A fourth item</li>
+            <li class="list-group-item">And a fifth one</li> -->
+          </ul>
+        </div>
+      </div>
+    </form>
+  </body>
+</html>
